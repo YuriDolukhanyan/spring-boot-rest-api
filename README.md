@@ -166,7 +166,7 @@ These dependencies allow the application to generate and serve OpenAPI documenta
 
 2. **Navigate to the project directory**:
    ```bash
-   cd spring-boot-user-api
+   cd spring-boot-rest-api
    ```
 
 3. **Build and run the application**:
