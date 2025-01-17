@@ -185,4 +185,3 @@ These dependencies allow the application to generate and serve OpenAPI documenta
 
 - **User already exists**: When trying to add a user with an ID that already exists, a `400 Bad Request` error will be returned.
 - **User not found**: If a user is not found when retrieving, updating, or deleting by ID, a `404 Not Found` error will be returned.
-- 
