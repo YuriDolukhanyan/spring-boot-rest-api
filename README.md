@@ -126,11 +126,36 @@ The users are stored in memory (using an `ArrayList`), so the data is reset ever
    }
    ```
 
-## What was used:
+## Technologies Used
 
 - **Spring Boot**: For creating the RESTful API.
 - **Java**: The main programming language.
 - **Maven**: For dependency management and building the project.
+- **Swagger (SpringDoc OpenAPI)**: For API documentation and interactive API testing interface.
+
+## Swagger Integration
+
+Swagger is integrated into this project using the SpringDoc OpenAPI starter. The UI for Swagger is automatically available when the application is running at the endpoint `http://localhost:8080/swagger-ui/index.html`.
+
+### Swagger Dependencies in `pom.xml`
+
+To enable Swagger in the project, the following dependencies were added to the `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-validation</artifactId>
+    <version>3.0.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.8.3</version>
+</dependency>
+```
+
+These dependencies allow the application to generate and serve OpenAPI documentation for the API, which can be explored using the Swagger UI.
 
 ## Setup and Installation
 
@@ -153,11 +178,11 @@ The users are stored in memory (using an `ArrayList`), so the data is reset ever
 4. **Access the API**:  
    Once the application is running, the API will be available at `http://localhost:8080`.
 
+5. **Swagger UI**:  
+   The Swagger UI can be accessed at `http://localhost:8080/swagger-ui/index.html`.
+
 ## Error Handling
 
 - **User already exists**: When trying to add a user with an ID that already exists, a `400 Bad Request` error will be returned.
 - **User not found**: If a user is not found when retrieving, updating, or deleting by ID, a `404 Not Found` error will be returned.
-  
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- 
