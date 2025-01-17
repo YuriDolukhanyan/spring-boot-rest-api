@@ -161,7 +161,7 @@ These dependencies allow the application to generate and serve OpenAPI documenta
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/spring-boot-user-api.git
+   git clone https://github.com/YuriDolukhanyan/spring-boot-rest-api.git
    ```
 
 2. **Navigate to the project directory**:
@@ -170,7 +170,7 @@ These dependencies allow the application to generate and serve OpenAPI documenta
    ```
 
 3. **Build and run the application**:
-   You can build and run the application using Maven:
+   You can build and run the application using Maven (or just run as a Java file in VS Code):
    ```bash
    mvn spring-boot:run
    ```
