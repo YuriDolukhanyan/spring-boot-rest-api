@@ -1,7 +1,7 @@
 
 # Spring Boot User Management API
 
-This is a simple Spring Boot application that provides a RESTful API for managing users. The API supports CRUD operations (Create, Read, Update, Delete) for managing a list of users.
+This is a Spring Boot application that provides a RESTful API for managing users. The API supports CRUD operations (Create, Read, Update, Delete) for managing a list of users.
 
 ## Features
 
@@ -126,7 +126,7 @@ The users are stored in memory (using an `ArrayList`), so the data is reset ever
    }
    ```
 
-## Technologies Used
+## What was used:
 
 - **Spring Boot**: For creating the RESTful API.
 - **Java**: The main programming language.
